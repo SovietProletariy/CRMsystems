@@ -1,0 +1,27 @@
+@import "./variables";
+@import "./mixins";
+@import "./extends";
+
+h1,h2{
+    position:relative;
+    padding-top: 20px;
+    left:40%;
+    top:15%;
+    width: 60%;
+}
+
+header{
+    div{
+        @include position(100%,15%,0px,0px);
+        background-color: $footer-header-color;
+    };
+    h1{
+        @include position(60%,15%,40%,0px);
+        color : #FFFF;
+    };
+};
+
+#whatcrm{
+    position:relative;
+    padding-top: 120px;
+}
