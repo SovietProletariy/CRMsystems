@@ -1,9 +1,13 @@
 h1, h2 {
   position: relative;
-  padding-top: 20px;
-  left: 40%;
+  left: 20%;
   top: 15%;
   width: 60%;
+  text-align: center;
+}
+
+h1 {
+  font-size: xx-large;
 }
 
 header div {
@@ -18,7 +22,7 @@ header h1 {
   position: absolute;
   width: 60%;
   height: 15%;
-  left: 40%;
+  left: 18%;
   top: 0px;
   color: white;
 }
@@ -26,4 +30,42 @@ header h1 {
 #whatcrm {
   position: relative;
   padding-top: 120px;
+}
+#whatcrm p {
+  position: relative;
+  width: 80%;
+  padding-left: 10%;
+  font-size: x-large;
+}
+
+#test {
+  background-color: #0F4880;
+  margin-top: 210px;
+  height: 300px;
+}
+#test h1 {
+  color: white;
+}
+#test button {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 40%;
+  width: 20%;
+  height: 20%;
+  color: white;
+  background-color: #1460AA;
+  font-size: large;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 15%;
+  left: 0%;
+  background-color: #404040;
+}
+footer h3 {
+  padding-top: 20px;
+  padding-left: 40%;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
