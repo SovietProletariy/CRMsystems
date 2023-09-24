@@ -1,0 +1,32 @@
+.block{
+    margin-left: 15%;
+    margin-top: 30px;
+    width: 70%;
+    height: 100px;
+    background-color: gray;
+}
+
+h1{
+    color: #FFF;
+    margin-top: 10%;
+    margin-left: 23%;
+}
+
+div img{
+    position: relative;
+    top: -45px;
+    padding-left: 3%;
+    width: 16%;
+    height:70px;
+    z-index: 10;
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.block:hover{
+    background-color: rgb(0, 54, 54);
+    transition: all 0.7s ease;
+}

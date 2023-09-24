@@ -1,3 +1,13 @@
+/*$footer-header-color:#17181D;
+$test-block:#E09145;
+$test-background: #FCD9B8 ;
+$set-active: rgb(116, 20, 20);
+$states-color:#292C35;*/
+/*$footer-header-color:#4D555B;
+$test-block:#1B768E;
+$test-background: #012538 ;
+$set-active: rgb(116, 20, 20);
+$states-color:#7e7e7e;*/
 h1, h2 {
   position: relative;
   left: 20%;
@@ -103,7 +113,7 @@ footer {
   margin-top: 180px;
   width: 100%;
   height: 90px;
-  left: 0%;
+  left: 0px;
   background-color: #404040;
 }
 footer h3 {
